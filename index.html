@@ -33,23 +33,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light mx-2" href="#">Inicio</a>
+                        <a class="nav-link text-light mx-2" href="#index">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-2" href="#">Sobre Mi</a>
+                        <a class="nav-link text-light mx-2" href="#about">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-2" href="#">Experiencia</a>
+                        <a class="nav-link text-light mx-2" href="#work">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-2" href="#">Contacto</a>
+                        <a class="nav-link text-light mx-2" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="mt-5">
+    <section id=index class="mt-5">
         <!--Foto-->
         <div container-fluid>
             <img class="w-100" src="assets/img/foto_principal.jpg" alt="Foto Principal">
@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    <section class="container d-none d-md-block">
+    <section id="about" class="container d-none d-md-block">
         <!--Presentacion que debe desaparecer en pantallas pequeñas-->
         <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, corporis itaque! Eligendi, illum ratione
             facere nemo vel impedit iure.
@@ -84,7 +84,7 @@
 
     </section>
 
-    <section class="container">
+    <section id="work" class="container">
         <!--Experiencia - Periodos laborales-->
         <h1 class="text-center text-uppercase">
             Mi Experiencia
@@ -122,7 +122,8 @@
         <!--Mis trabajos-->
         <h1 class="text-center text-white text-uppercase">Mis Trabajos</h1>
 
-        <div id="blogCarousel" class="carousel slide container-fluid rounded pt-4 pb-5 text-center" data-ride="carousel">
+        <div id="blogCarousel" class="carousel slide container-fluid rounded pt-4 pb-5 text-center"
+            data-ride="carousel">
             <ol class="carousel-indicators ounded-circle">
                 <li data-target="#blogCarousel" data-slide-to="0" class="active bg-dark mark-carousel mt-0"></li>
                 <li data-target="#blogCarousel" data-slide-to="1" class="bg-dark mark-carousel"></li>
@@ -160,15 +161,14 @@
         </div>
     </section>
 
-    <section>
+    <section id="contact" class="text-center">
         <!--Formulario Typeform-->
         <div class="typeform-widget" data-url="https://marjoretherrera.typeform.com/to/rAQOqz" data-transparency="50"
-            style="width: 100%; height: 500px;"></div>
+            data-hide-headers=true data-hide-footer=true style="width: 100%; height: 400px;"></div>
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
         <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
                 href="https://admin.typeform.com/signup?utm_campaign=rAQOqz&utm_source=typeform.com-14759223-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
-                style="color: #999" target="_blank">Typeform</a> 
-        </div>
+                style="color: #999" target="_blank">Typeform</a> </div>
     </section>
 
     <footer class="container-fluid bg-dark">
