@@ -1,0 +1,29 @@
+body {
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.text-logo {
+    font-family: "Righteous", cursive;
+    font-size: 2.3rem;
+    color: #ffffff;
+}
+
+.text-logo {
+    color: #ffffff;
+}
+
+.mark-carousel {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+
+@media (min-widht: 576px) {
+    .d-none {
+        display: none !important; 
+    }
+    .d-md-block {
+        display: block !important;
+    }
+}
