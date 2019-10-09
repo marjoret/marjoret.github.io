@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-right fixed-top">
         <div class="container">
-            <a class="navbar-brand text-logo text-white" href="#">MAYO</a>
+            <a class="navbar-brand text-logo text-white" href="#index">MAYO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,12 +52,8 @@
         </div>
     </nav>
 
-    <section id=index class="mt-5">
-        <!--Foto-->
-        <div container-fluid>
-            <img class="w-100" src="assets/img/foto_principal.jpg" alt="Foto Principal">
-            <!--<h2>MARJORET HERRERA</h2>-->
-        </div>
+    <section id=index class="mt-5 index-section">
+        <h2>Marjoret Herrera</h2>
     </section>
 
     <section id="about" class="container d-none d-md-block top">
@@ -276,14 +272,26 @@
         <!--Footer y RRSS-->
         <div class="container py-4">
             <div class="text-center">
-                <a class="text-logo" href="#">MAYO</a>
+                <p class="text-logo">MAYO</p>
             </div>
-            <div class="text-center my-3">
-                <a href="https://github.com/marjoret"><i class="fab fa-github-square fa-3x text-light mx-3"></i></a>
-                <a href="https://www.instagram.com/mayopopcorn/"><i
-                        class="fab fa-instagram fa-3x text-light mx-3"></i></a>
-                <a href="https://www.linkedin.com/in/marjoret-herrera-zamorano-203209a0/"><i
-                        class="fab fa-linkedin fa-3x text-light mx-3"></i></a>
+            <div class="row">
+                <div class="col-6 text-white mt-4 text-right">
+                    <h5>Búscame en mis redes sociales</h5>
+                </div>
+                <div class="col-6 text-left mt-3">
+                    <a href="https://github.com/marjoret"><i class="fab fa-github-square fa-3x text-light mx-3"
+                            data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                            data-content="Github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mayopopcorn/" data-container="body" data-toggle="popover"
+                        data-trigger="hover" data-placement="bottom" data-content="Instagram"><i
+                            class="fab fa-instagram fa-3x text-light mx-3"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marjoret-herrera-zamorano-203209a0/"><i
+                            class="fab fa-linkedin fa-3x text-light mx-3" data-container="body" data-toggle="popover"
+                            data-trigger="hover" data-placement="bottom" data-content="LinkedIn"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
@@ -306,4 +314,5 @@
     <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>

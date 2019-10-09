@@ -21,6 +21,17 @@ h1 {
     font-weight: 700;
 }
 
+.index-section {
+    background-image: url(../img/foto_principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 18em 1.25em 2.125em 2.25em;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+}
+
 .img-experience {
     max-height: 50px;
     max-width: 150px;

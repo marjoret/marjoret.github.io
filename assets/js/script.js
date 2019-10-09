@@ -16,5 +16,6 @@ $(function (){
 
     $("a").attr("target", "_blank");
 
-});
+    $('[data-toggle="popover"]').popover()
 
+});
