@@ -21,6 +21,12 @@ h1 {
     font-weight: 700;
 }
 
+.img-experience {
+    max-height: 50px;
+    max-width: 150px;
+    margin-top: 30px;
+}
+
 .mark-carousel {
     width: 10px !important;
     height: 10px !important;
